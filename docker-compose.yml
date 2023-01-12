@@ -2,14 +2,14 @@ version: '3'
 
 services:
   react-ts:
-    build: ./react-ts-app
+    build: ./react-front
     ports:
       - '3000:3000'
     tty: true
     stdin_open: true
     
   go:
-    build: ./go-app
+    build: ./go-api
     ports:
       - '8000:8000'
     tty: true
