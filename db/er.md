@@ -6,7 +6,16 @@ erDiagram
   string name
   string email
   string password
-  datetime created_at
-  datetime updated_at
+  datetime created_at?
+  datetime updated_at?
   }
+  
+  organizations {
+   string id
+   string name
+   datetime created_at?
+   datetime updated_at?
+  }
+  
+  users }|..|{ organizations
 ```
