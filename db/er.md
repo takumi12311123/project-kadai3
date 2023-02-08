@@ -17,5 +17,5 @@ erDiagram
    datetime updated_at
   }
   
-  users }|..|{ organizations
+  users }|..|{ organizations:
 ```
