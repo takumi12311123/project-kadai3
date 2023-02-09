@@ -8,6 +8,7 @@ erDiagram
   password string 
   created_at datetime
   updated_at datetime
+  organization_id organization
   }
   
   organizations {
@@ -15,6 +16,7 @@ erDiagram
    name string
    created_at string
    updated_at string
+   user_id users
   }
   
   users }|..|{ organizations: company
